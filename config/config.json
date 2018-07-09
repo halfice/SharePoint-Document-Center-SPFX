@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wpatcdcenter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpatcdcenter/WpatcdcenterWebPart.js",
+          "manifest": "./src/webparts/wpatcdcenter/WpatcdcenterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WpatcdcenterWebPartStrings": "lib/webparts/wpatcdcenter/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,177 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.wpatcdcenter {
+  .label {
+    font-weight: $ms-font-weight-semibold;
+    font-size: 19px!important;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 4px;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .submitSEarchButton{
+    background-image: url(https://arabtec.sharepoint.com/PublishingImages/images.png);
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 60px;
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 2px;
+    border: solid 1px gray;
+    padding: 1px;
+    margin: 1px;
+    float: right;
+  }
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2), 0 25px 50px 0 rgba(0,0,0,.1);
+    left: 50%;
+  }
+  .ImagesClassLoader{
+    width: 219px;;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .LoaderDivOnPage{
+    position: absolute;
+    font-size: 62px;
+    color: #000;
+    top: 2%;
+    background-color: lightgray;
+    opacity: 0.5;
+    border-radius: 8px;
+    width:100%;
+    text-align: center;
+    height: 100%;
+  }
+
+  .submitButton{
+    background-image: url(https://arabtec.sharepoint.com/PublishingImages/images.png);
+    background-repeat: repeat-y;
+    width: 50%;
+    height: 60px;
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 2px;
+    border: solid 1px gray;
+    padding: 1px;
+    margin: 1px;
+    float: right;
+  }
+
+  .uploadbutton{
+    background-image: url(https://arabtec.sharepoint.com/PublishingImages/images.png);
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 60px;
+    background-color: #a80000;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 2px;
+    border: solid 1px gray;
+    padding: 1px;
+    margin: 3px;
+  }
+
+  .headerrow{
+    background-color: #c72d25;
+    color: white;
+    font-weight: bold
+  }
+
+  .SearchResultGrid
+  {
+    margin:3px;
+    padding: 11px;
+
+  }
+
+  .myinput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+
+  .FooterButtonDiv{
+    float: left;
+    width:100%;
+  }
+
+
+
+  .row {
+    @include ms-Grid-row;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+ 
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: 19px!important;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+}
+
+

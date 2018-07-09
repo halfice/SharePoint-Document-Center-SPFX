@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "atcdcentersol-client-side-solution",
+    "id": "647b3a2b-1fb3-432a-af3e-b5f874c76e48",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/atcdcentersol.sppkg"
+  }
+}
